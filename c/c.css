@@ -1,0 +1,45 @@
+html {font-size: 10px;}
+body {font-size:1.5rem; margin: 0; background: #eff0f4;}
+.fl { float: left; color: #ffffff}
+.fr { float: right; color: #ffffff}
+.tc { text-align: center; font-size:1.6rem; color: #ffffff}
+.header{background: #5fc0cd; padding: 1.5rem;
+}
+.oo{  background: #eff0f4; 
+    position:absolute; left: 0;
+    margin: 0 0 0 0;
+    width: 5.9rem;
+    height: 12.6rem;
+}
+
+form{margin: 0 0 0 5.9rem;
+    
+    background: #eff0f4;
+    
+}
+input[type="text"]{
+    width: 100%;
+    height: 5rem;
+    
+    }
+input[type="password"]{
+    width: 100%;
+    height:5rem;    
+    }
+input{margin:0.7rem 0 0 0 ; border: 0; outline:none;}
+img{  /*也可以直接使用类名 */
+    width:5.9rem;
+    height:5.2rem;
+    display:block;
+    }
+.q{margin:0.7rem 0 0.7rem 0;}    
+button{width:100% ;
+    height:5rem;
+    letter-spacing:1rem;
+    color: #ffffff;
+    background-color:#5fc0cd;
+    border:none;
+    margin-top: 3.5rem;
+    font-size:1.6rem;
+}
+a{float:right;margin-right: 1.65rem; color: #5fc0cd; } 
