@@ -16,10 +16,12 @@ p{
     font-size:.875rem;
     margin-top:56px;
     color:#FFFFFF;
+    letter-spacing: 2px;
     }
 
 body{
     background-color: #68cdd5;
+    
 }
 .mj3{
     display: flex;
