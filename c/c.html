@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+        <div class="header">
+                <div class="fl">关闭</div> 
+                <div class="fr">注册</div> 
+                <div class="tc">登录</div>
+        </div>
+        <div class="tp">
+            <div class="oo">
+            <div class="q"><img src="02.png" ></div>
+            
+            <div class="w"><img src="05.png" ></div>
+            </div>
+            <form  method="post" action="save.php">
+        
+                <input type="text" name="myname" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" maxlength="11"/>
+                <br>
+             
+                <input type="password" name="pass" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" maxlength="11"/>
+            </form>
+        </div>
+        <button type="button">登录</button>
+        <a  href="目标网址" >忘记密码</a>
+
+        
+</body>
+</html>
