@@ -21,7 +21,7 @@
             </div>
             <form  method="post" action="save.php">
         
-                <input type="text" name="myname" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" maxlength="11"/>
+                <input type="text" name="myname" onkeyup="value=value.replace(/[^\d]/g,'')" maxlength="11"/>
                 <br>
              
                 <input type="password" name="pass" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" maxlength="11"/>
