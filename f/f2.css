@@ -125,5 +125,6 @@ button{
     color: white;
 }
 body{
-    margin-bottom: 95px;    
+    margin-bottom: 95px;  
+    background: #29bde0;  
 }
