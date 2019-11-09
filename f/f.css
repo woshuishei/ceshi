@@ -90,3 +90,9 @@ body{
 .nd1{
     position: relative;
 }
+.on a:hover{
+    background: #29bde0;
+}
+.d3 .nd1 .nnd1 a{
+    text-decoration: none;
+}
