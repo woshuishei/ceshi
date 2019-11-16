@@ -3,7 +3,7 @@
 }
 .x1{
     display: block;
-    
+    cursor: pointer;
 }
 .d2{
     display: none;
@@ -34,7 +34,7 @@
     align-items: center;
 }
 .d61{
-    width: 100%;
+    width: 50%;
 }
 .dd6{
     flex-direction: column;

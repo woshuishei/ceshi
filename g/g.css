@@ -168,6 +168,10 @@ body{
     height: 260px;
     /* border: solid #29b078; */
 }
+.d62 ul{
+    list-style: none;
+    padding: 0;
+}
 .dd6{
     width: 54vw;
     display: flex;
@@ -183,7 +187,7 @@ body{
     margin: 0;
     padding: 0;
 }.d62{
-    padding: 55px 0 0 0;
+    padding: 50px 0 0 2.8vw;
     font-size: 9px;
 }
 li{
@@ -272,6 +276,9 @@ li{
 .d14{
     display: flex;
     padding-left: 1vw;
+}
+.d14 img{
+    width: 20%;
 }
 .z4{
     height: 100px;
@@ -481,8 +488,4 @@ h1{
     text-align: center;
     padding-top: 2vw;
     padding-bottom: 2vw;
-}
-.d62 ul{
-    list-style: none;
-    padding: 0;
 }
