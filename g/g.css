@@ -261,6 +261,11 @@ li{
     border-radius: 50%;
     background: #999;
     margin: 0 2px;
+    cursor: pointer;
+}
+.xd:hover{
+    
+    background: #29b078;
 }
 .d12{
     display: flex;
