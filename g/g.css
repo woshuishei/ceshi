@@ -482,3 +482,7 @@ h1{
     padding-top: 2vw;
     padding-bottom: 2vw;
 }
+.d62 ul{
+    list-style: none;
+    padding: 0;
+}
