@@ -1,14 +1,14 @@
-.d1{
+.header{
     display: none;
 }
 .x1{
     display: block;
     cursor: pointer;
 }
-.d2{
+.Navigation{
     display: none;
 }
-.d2 a{
+.Navigation a{
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -21,14 +21,14 @@
     display: block;
     cursor: pointer;
 }
-#menu:checked ~ .d2{
+#menu:checked ~ .Navigation{
     display: block;
 }
 .m1{
     display: flex;
     flex-direction: row-reverse;
 }
-.d6{
+.Advantage{
     height: 800px;
     flex-direction: column;
     align-items: center;
@@ -42,68 +42,62 @@
     height: 500px;
     border: none;
 }
-.d8{
+.Learningform{
     flex-direction: column;
     align-items: center;
     height: 350px;
     justify-content: space-around;
 }
-.d11{
+.Exhibitionpart{
     flex-direction: column;
     align-items: center;
 }
-.d111{
+.Exhibitionpart1{
     margin-right: 0;
     width: 80%;
     /* margin-bottom: 10px; */
     margin: 0 auto 30px;
 }
-.d12{
-  
-}
-.d14{
+
+.Picturecontainerpart{
     flex-direction: column;
     align-items: center;
 }
-.db{
+.footer{
     flex-direction: column;
 }
-.zb{
+.footerleft{
     padding-left: 0px;
 }
-.db .yb p{
+.footer .footerright p{
     text-align: left!important;
 }
 .c0{
     height: 1000px;
 }
-.c1{
+.Potato{
     flex-wrap: wrap;
     justify-content: center;
 }
-.t1{
+.Engineerintroduction{
     height: 301.94px;
 }
-.b2{
+.Engineer{
     padding-right: 0px;
     margin-bottom: 15px;
 }
 .d62{
     padding: 55px 0 0 0;
+    
 }
-/* .d4 .l1{
-    padding-left: 0px;
-}
-.d4 .l1 li{
-    list-style: none;
-    padding-right: 4px;
-} */
-.y1,.y2,.y3,.y4{
+
+.surplus1,.surplus2,.surplus3,.surplus4{
     width: 100%;
 }
-.l1{
+.Linkcharacter{
     width: 100%;
     flex-direction: column;
     display: inline-block;
     text-align: center;
+    
 }
