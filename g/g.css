@@ -329,6 +329,7 @@ li{
 }
 .Linkcharacter li a{
     color: black;
+	white-space: nowrap;
 }
 .Linkcharacter{
     display: flex;
