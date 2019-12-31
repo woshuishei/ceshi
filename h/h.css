@@ -124,12 +124,13 @@
     margin-right: 60px;
     outline: none
 }
-.tablepart2wrap:focus .Matryoshka{
+input{
+    display: none;
+}
+input:checked ~ .Matryoshka{
     background: #1d7ad9;
 }
-.tablepart2wrap-2:focus .Matryoshka{
-    background: #1d7ad9;
-}
+
 .tablepart2{
     display: flex;
     justify-content: space-between;
