@@ -124,9 +124,7 @@
     margin-right: 60px;
     outline: none
 }
-input{
-    display: none;
-}
+
 input:checked ~ .Matryoshka{
     background: #1d7ad9;
 }
