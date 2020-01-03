@@ -140,6 +140,9 @@ input:checked ~ .Matryoshka{
     display: flex;
     align-items: center;
 }
+input[type="radio"]{
+    display:none
+}
 .selection{
     width: 130px;
     padding-left: 20px;
