@@ -141,7 +141,7 @@ input:checked ~ .Matryoshka{
     align-items: center;
 }
 input[type="radio"]{
-    display:none
+    display:none;
 }
 .selection{
     width: 130px;
