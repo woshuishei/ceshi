@@ -1,0 +1,213 @@
+body {
+    margin-bottom: 50px;
+}
+
+.container-fluid {
+    .dropdown {
+        button.dropdown-toggle {
+            background-color: white;
+            width           : 100%;
+            border          : none;
+            font-size       : 12px;
+            padding-right   : 0;
+            height          : 35px;
+            border-right    : 1px solid #e1e5e7;
+            color           : #999;
+            display         : flex;
+            justify-content : space-between;
+            align-items     : center;
+            padding-right   : 5px;
+        }
+
+        li {
+            a:hover {
+                background-color: #e2eaec;
+            }
+
+            text-align: center;
+            font-size : 12px;
+            color     : #5fc0cd;
+        }
+
+        width: 33.3%;
+    }
+
+    display: flex;
+}
+
+.header {
+    .headerleft {
+        width: 33.3%;
+    }
+
+    .btn-group {
+        .switch1 {
+            display         : inline-block;
+            width           : 50%;
+            font-size       : 1.2rem;
+            color           : #ffffff;
+            background-color: #55a8b3;
+            white-space     : nowrap;
+            border          : none;
+            outline         : none;
+            padding         : 9px 12px;
+            border-radius   : .5rem;
+            text-align      : center;
+
+        }
+
+        .switch2 {
+            display         : inline-block;
+            width           : 50%;
+            font-size       : 1.2rem;
+            color           : #ffffff;
+            background-color: #55a8b3;
+            white-space     : nowrap;
+            border          : none;
+            outline         : none;
+            padding         : 9px 12px;
+            border-radius   : .5rem;
+            text-align      : center;
+            z-index: 1;
+        }
+
+        a:hover {
+            background-color: white;
+            color           : #5fc0cd;
+        }
+
+        display: flex;
+        width  : 33.3%;
+        margin : 4px 0;
+    }
+
+    .headerright {
+        .Icon {
+            padding: 0 15px 0 0;
+        }
+
+        display         : flex;
+        flex-direction  :row-reverse;
+        align-items     : center;
+        background-color: #5fc0cd;
+        width           : 33.3%;
+    }
+
+    display         : flex;
+    height          : 43px;
+    background-color: #58c4d0;
+}
+
+.main {
+    .Servicedate {
+        i {
+            display   : inline-block;
+            width     : 12px;
+            height    : 12px;
+            background: url(./images/css_sprites.png);
+        }
+
+        .Smallgraph {
+            background-position: -5px -65px;
+        }
+
+        .describe {
+            padding-left: 7px;
+            font-size   : 13px;
+            color       : #999999
+        }
+
+        display     : flex;
+        flex-grow   : 1;
+        align-items : center;
+        padding-left: 15px;
+    }
+
+    .Middle {
+        .date {
+            text-overflow: ellipsis;
+            white-space  : nowrap;
+            overflow     : hidden;
+        }
+
+        .Price {
+            .Priceleft {
+                padding-left: 7px;
+                font-size   : 13px;
+                color       : #e63b0e;
+            }
+
+            .Priceright {
+                display     : inline-block;
+                width       : 8px;
+                height      : 8px;
+                border-top  : 2px solid #5fc0cd;
+                border-right: 2px solid #5fc0cd;
+                transform   : rotate(45deg);
+            }
+
+            white-space: nowrap;
+        }
+
+        display        : flex;
+        justify-content: space-between;
+        flex-grow      : 1;
+        align-items    : center;
+        padding-right  : 16px;
+        padding-left   : 34px;
+    }
+
+    .underpart {
+        .underpartright {
+            padding-left: 7px;
+            font-size   : 13px;
+            color       : #999999
+        }
+
+        .underpartleft {
+            background-position: -5px -113px;
+        }
+
+        display     : flex;
+        flex-grow   : 1;
+        align-items : center;
+        padding-left: 15px;
+    }
+
+    height          : 89px;
+    background-color: white;
+    border-top      : 1px solid #e1e5e7;
+    display         : flex;
+    flex-direction  : column;
+}
+
+.foot {
+    display         : flex;
+    justify-content : center;
+    position        : fixed;
+    height          : 50px;
+    background-color: #ffffff;
+    left            : 0px;
+    bottom          : 0px;
+    right           : 0px;
+    border-top      : #e2eaec 1px solid;
+
+    div {
+        background: url(./images/css_sprites.png);
+    }
+
+    #footmiddle {
+        background-position: -79px -5px;
+        width              : 47px;
+    }
+
+    #footright {
+        background-position: -126px -5px;
+        width              : 71.5px;
+    }
+
+    #footleft {
+        background-position: 0px -5px;
+        width              : 74px;
+    }
+}
