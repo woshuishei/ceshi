@@ -1,0 +1,149 @@
+body {
+    #menu:checked~.sidebar {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    background-color: #f0f0f0;
+    letter-spacing  :1px;
+    display         : flex;
+}
+
+.sidebar {
+    display   : none;
+    background: white;
+    color     : #29bde0;
+    min-width : 70vw;
+
+    .sidebarpart {
+        height       : 50px;
+        display      : flex;
+        align-items  : center;
+        position     : relative;
+        padding-left : 8px;
+        border-bottom: 0.3px solid #29bde0;
+
+        .Priceright {
+            width       : 8px;
+            height      : 8px;
+            border-top  : 2px solid #5fc0cd;
+            border-right: 2px solid #5fc0cd;
+            transform   : rotate(45deg);
+            margin-left : 40px;
+        }
+
+        .picture {
+            width       : 20px;
+            margin-right: 10px;
+        }
+    }
+}
+
+
+.header {
+    height          : 46px;
+    background-color: #29bde0;
+    padding         : 11px 0 0 11px;
+}
+
+.header-2 {
+    .introduce1 {
+        line-height: 59px;
+        color      : #787878;
+    }
+
+    .Triangle {
+        display     : inline-block;
+        height      : 10px;
+        width       : 10px;
+        border-right: #e7e7e7 solid 3px;
+        border-top  : #e7e7e7 solid 3px;
+        transform   : rotate(45deg);
+        position    : relative;
+        left        : -15px;
+    }
+
+    height          : 59px;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    border          : #c9c9c9 solid 1px;
+    margin          : 13px 5.5vw;
+    background-color: white;
+}
+
+.main {
+    .Dot {
+        a:hover {
+            background: #29bde0;
+        }
+
+        a {
+            display      : inline-block;
+            background   : #f0f0f0;
+            height       : 9px;
+            width        : 9px;
+            border-radius: 50%;
+            border       : none;
+            padding      : 0;
+            margin       : 5px 5px 5px 0;
+        }
+
+        display        : flex;
+        justify-content: center;
+    }
+
+    .introduce2 {
+        display      : block;
+        line-height  : 46px;
+        color        : #fcc25b;
+        text-align   : center;
+        border-bottom: #fcc25b solid 1px;
+    }
+
+    .mainpart {
+        .Triangle2 {
+            width        : 0;
+            height       : 0;
+            border-top   : 14px solid transparent;
+            border-bottom: 14px solid transparent;
+            border-left  : 14px solid #fbb435;
+            position     : absolute;
+            right        : 4px;
+            top          : 50%;
+            margin-top   : -31px;
+        }
+
+        .introduce4 {
+            display   : block;
+            text-align: center;
+            color     : #787878;
+            font-size : 12.5px;
+        }
+
+        .list {
+            a {
+                text-decoration: none;
+            }
+
+            .introduce3 {
+                line-height: 72px;
+                color      : white;
+            }
+
+            height          : 72px;
+            margin          : 15px 8.5vw;
+            text-align      : center;
+            background-color: #29bde0;
+        }
+
+        position: relative;
+    }
+
+    border          : #c9c9c9 solid 1px;
+    margin          : 13px 5.5vw 31px;
+    background-color: white;
+}
