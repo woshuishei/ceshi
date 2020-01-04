@@ -131,18 +131,35 @@ p {
 }
 
 .footer {
+
     .footerright {
+        &:hover{
+            a{
+                color: #fff;
+            }
+            background-color: #5fc0cd;
+            
+        }
+        a{
+            color: #5fc0cd;
+            text-decoration:none;
+        }
+
         height       : 44px;
         width        : 45%;
         text-align   : center;
         line-height  : 44px;
         border-radius: 10px;
         font-size    : 15px;
-        background: #5fc0cd;
+        border    : #5fc0cd 2px solid;
         color     : white;
     }
 
     .footerleft {
+        &:hover{
+            background-color: #5fc0cd;
+            color: #fff;
+        }
         height       : 44px;
         width        : 45%;
         text-align   : center;

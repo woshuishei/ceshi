@@ -202,6 +202,11 @@ body {
     }
 
     #footright {
+        a{
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
         background-position: -126px -5px;
         width              : 71.5px;
     }
@@ -210,4 +215,5 @@ body {
         background-position: 0px -5px;
         width              : 74px;
     }
+    
 }

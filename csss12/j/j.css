@@ -149,8 +149,21 @@ p {
   line-height: 44px;
   border-radius: 10px;
   font-size: 15px;
-  background: #5fc0cd;
+  border: #5fc0cd 2px solid;
   color: white;
+}
+
+.footer .footerright:hover {
+  background-color: #5fc0cd;
+}
+
+.footer .footerright:hover a {
+  color: #fff;
+}
+
+.footer .footerright a {
+  color: #5fc0cd;
+  text-decoration: none;
 }
 
 .footer .footerleft {
@@ -163,4 +176,9 @@ p {
   background: white;
   border: #5fc0cd 2px solid;
   color: #5fc0cd;
+}
+
+.footer .footerleft:hover {
+  background-color: #5fc0cd;
+  color: #fff;
 }

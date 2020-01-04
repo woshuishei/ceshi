@@ -206,6 +206,12 @@ body {
   width: 71.5px;
 }
 
+.foot #footright a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
 .foot #footleft {
   background-position: 0px -5px;
   width: 74px;
