@@ -1,0 +1,110 @@
+.header {
+    display: none;
+}
+
+.x1 {
+    display: block;
+    cursor : pointer;
+}
+
+.Navigation {
+    a {
+        width  : 100%;
+        display: block;
+        margin : 0 auto;
+    }
+
+    display: none;
+}
+
+
+
+#menu:checked~.Navigation {
+    display: block;
+}
+
+.m1 {
+    #menu1 {
+        height    : 50px;
+        width     : 50px;
+        background: url(./8/QQ20191113144045.png);
+        display   : block;
+        cursor    : pointer;
+    }
+
+    display       : flex;
+    flex-direction: row-reverse;
+}
+
+.Advantage {
+    flex-direction: column;
+    align-items   : center;
+}
+
+.Learningform {
+    flex-direction : column;
+    align-items    : center;
+    height         : 350px;
+    justify-content: space-around;
+}
+
+.Exhibitionpart {
+    .Exhibitionpart1 {
+        margin-right: 0;
+        width       : 80%;
+        margin      : 0 auto 30px;
+    }
+
+    flex-direction: column;
+    align-items   : center;
+}
+
+
+.Picturecontainerpart {
+    flex-direction: column;
+    align-items   : center;
+}
+
+.footer {
+    .footerright p {
+        text-align: left !important;
+    }
+
+    .footerleft {
+        padding-left: 0px;
+    }
+
+    flex-direction: column;
+}
+
+.Potato {
+    flex-wrap      : wrap;
+    justify-content: center;
+}
+
+.Engineer {
+    .Engineerintroduction {
+        height: 301.94px;
+    }
+
+    padding-right: 0px;
+    margin-bottom: 15px;
+}
+
+.d62 {
+    padding: 55px 0 0 0;
+}
+
+.surplus1,
+.surplus2,
+.surplus3,
+.surplus4 {
+    width: 100%;
+}
+
+.Linkcharacter {
+    width         : 100%;
+    flex-direction: column;
+    display       : inline-block;
+    text-align    : center;
+}

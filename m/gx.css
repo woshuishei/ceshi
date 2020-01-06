@@ -1,0 +1,103 @@
+.header{
+    display: none;
+}
+.x1{
+    display: block;
+    cursor: pointer;
+}
+.Navigation{
+    display: none;
+}
+.Navigation a{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#menu1{
+    height: 50px;
+    width: 50px;
+    background: url(./8/QQ20191113144045.png);
+    display: block;
+    cursor: pointer;
+}
+#menu:checked ~ .Navigation{
+    display: block;
+}
+.m1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Advantage{
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+}
+.d61{
+    
+}
+.dd6{
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border: none;
+}
+.Learningform{
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    justify-content: space-around;
+}
+.Exhibitionpart{
+    flex-direction: column;
+    align-items: center;
+}
+.Exhibitionpart1{
+    margin-right: 0;
+    width: 80%;
+    /* margin-bottom: 10px; */
+    margin: 0 auto 30px;
+}
+
+.Picturecontainerpart{
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    flex-direction: column;
+}
+.footerleft{
+    padding-left: 0px;
+}
+.footer .footerright p{
+    text-align: left!important;
+}
+.c0{
+    height: 1000px;
+}
+.Potato{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Engineerintroduction{
+    height: 301.94px;
+}
+.Engineer{
+    padding-right: 0px;
+    margin-bottom: 15px;
+}
+.d62{
+    padding: 55px 0 0 0;
+    
+}
+
+.surplus1,.surplus2,.surplus3,.surplus4{
+    width: 100%;
+}
+.Linkcharacter{
+    width: 100%;
+    flex-direction: column;
+    display: inline-block;
+    text-align: center;
+    
+}
