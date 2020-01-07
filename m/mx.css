@@ -9,12 +9,14 @@
 
 .Navigation {
   display: none;
+  height: 100%;
 }
 
 .Navigation a {
   width: 100%;
   display: block;
   margin: 0 auto;
+  line-height: 50px;
 }
 
 #menu:checked ~ .Navigation {
@@ -42,7 +44,6 @@
 .Learningform {
   flex-direction: column;
   align-items: center;
-  height: 350px;
   justify-content: space-around;
 }
 
@@ -75,6 +76,7 @@
 }
 
 .Potato {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -92,16 +94,6 @@
   padding: 55px 0 0 0;
 }
 
-.surplus1,
-.surplus2,
-.surplus3,
-.surplus4 {
-  width: 100%;
-}
-
-.Linkcharacter {
-  width: 100%;
-  flex-direction: column;
-  display: inline-block;
-  text-align: center;
+.hideright {
+  top: 20px;
 }

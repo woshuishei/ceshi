@@ -30,7 +30,7 @@ body {
 .hideright {
   position: absolute;
   left: 0px;
-  top: 20px;
+  top: 45px;
   margin-left: 19.6vw;
 }
 
@@ -44,6 +44,7 @@ body {
 }
 
 .Navigation {
+  height: 100px;
   padding: 0 15.6vw;
   background-color: #29b078;
   display: flex;
@@ -71,7 +72,7 @@ body {
   color: #fff;
   font-size: 12px;
   display: inline-block;
-  line-height: 50px;
+  line-height: 100px;
   width: 50px;
   text-align: center;
   position: relative;
@@ -79,7 +80,7 @@ body {
 
 .Navigation a .surplus1 {
   height: 2px;
-  width: 50px;
+  width: 100%;
   position: absolute;
   background-color: white;
   bottom: 0;
@@ -88,7 +89,7 @@ body {
 
 .Navigation a .surplus2 {
   height: 2px;
-  width: 50px;
+  width: 100%;
   position: absolute;
   background-color: white;
   bottom: 0;
@@ -97,7 +98,7 @@ body {
 
 .Navigation a .surplus3 {
   height: 2px;
-  width: 50px;
+  width: 100%;
   position: absolute;
   background-color: white;
   bottom: 0;
@@ -106,7 +107,7 @@ body {
 
 .Navigation a .surplus4 {
   height: 2px;
-  width: 50px;
+  width: 100%;
   position: absolute;
   background-color: white;
   bottom: 0;
@@ -144,6 +145,7 @@ body {
 .d62 ul {
   list-style: none;
   padding: 0;
+  padding-top: 28px;
 }
 
 .d6 {
@@ -193,7 +195,7 @@ li {
 .Learningform .Learningformpart2 span {
   display: inline-block;
   width: 120px;
-  font-size: 9px;
+  font-size: 12px;
   padding-left: 8px;
 }
 
@@ -270,25 +272,46 @@ li {
   flex-wrap: wrap;
 }
 
-.Picturecontainerpart img {
+.Picturecontainerpart .Picturecontainerpart-queue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20%;
+  height: 180px;
 }
 
-.Picturecontainerpart img:hover {
-  position: relative;
-  right: 1px;
+.Picturecontainerpart .Picturecontainerpart-queue:hover {
   box-shadow: 0 0 9px 3px #999;
 }
 
-@media screen and (max-width: 992px) {
-  .Picturecontainerpart img {
+@media screen and (max-width: 1200px) {
+  .Picturecontainerpart .Picturecontainerpart-queue {
     width: 50%;
+    flex-wrap: wrap;
+  }
+  .d62 {
+    border-left: none;
+  }
+  .d62 ul {
+    text-align: center;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .d62 {
-    border-left: none;
+@media screen and (max-width: 500px) {
+  body .container-fluid {
+    padding: 0 5vw;
+  }
+  body .population {
+    margin-left: 5vw;
+  }
+  .Linkcharacter {
+    width: 100%;
+    flex-direction: column;
+    display: inline-block;
+    text-align: center;
+  }
+  body .Projecttitle {
+    margin-left: 5vw;
   }
 }
 
@@ -296,6 +319,11 @@ li {
   height: 100px;
   line-height: 100px;
   text-align: center;
+}
+
+.Linkcharacterfather {
+  display: flex;
+  flex-direction: column;
 }
 
 .Linkcharacter {
@@ -306,8 +334,8 @@ li {
 }
 
 .Linkcharacter li {
-  width: 36px;
-  font-size: 9px;
+  width: 40px;
+  font-size: 12px;
   cursor: pointer;
   margin-bottom: 7px;
   padding-bottom: 0px;
@@ -315,17 +343,28 @@ li {
 
 .Linkcharacter li a {
   color: black;
+  display: block;
+  height: 22px;
+  text-decoration: none;
+  width: 48px;
+}
+
+.Linkcharacter li a:hover {
+  border-bottom: 0.5px solid green;
 }
 
 @media screen and (max-width: 992px) {
+  .Linkcharacterfather {
+    display: flex;
+    flex-direction: row;
+  }
   .Linkcharacter {
-    text-align: center;
-    width: 49%;
-    flex-direction: column;
-    display: inline-block;
+    width: 50%;
+    flex-wrap: wrap;
   }
   .Linkcharacter li {
-    margin: 0 auto 7px;
+    margin: 0 auto;
+    width: 50%;
   }
 }
 
@@ -333,7 +372,6 @@ li {
   background: #29b078;
   padding: 17px 16.6vw 0;
   display: flex;
-  font-size: 9px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -341,7 +379,6 @@ li {
 
 .footer a {
   display: inline-block;
-  font-size: 9px;
   margin-right: 1.5vw;
   color: white;
 }
@@ -359,7 +396,6 @@ li {
 }
 
 .lowest {
-  font-size: 9px;
   text-align: center;
   background: #29b078;
   color: #fff;
@@ -415,6 +451,7 @@ li {
   padding: 0px;
   border: solid 1px rgba(222, 222, 222, 0.5);
   margin-right: 10px;
+  font-size: 12px;
 }
 
 .Cooperationlist ul a {
@@ -443,6 +480,7 @@ li {
 }
 
 .Introductionpart {
+  font-size: 13px;
   height: 800px;
 }
 
@@ -453,7 +491,6 @@ li {
 }
 
 .Introductionpart .Introductionpart1 .Potato {
-  display: flex;
   margin-bottom: 15px;
   border-bottom: solid 1px rgba(222, 222, 222, 0.5);
 }
@@ -541,12 +578,13 @@ li {
 .Engineer .Engineerintroduction {
   position: absolute;
   height: 98%;
-  display: none;
+  visibility: hidden;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
   color: white;
   padding: 2vw;
   font-size: 10px;
+  transition: transform 2s;
 }
 
 .Engineer .Engineerintroduction p {
@@ -566,5 +604,6 @@ li {
 }
 
 .Engineer:hover .Engineerintroduction {
-  display: block;
+  visibility: visible;
+  transform: rotateY(360deg);
 }
