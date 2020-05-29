@@ -1,0 +1,129 @@
+.d1{
+    background-color: #29bde0;
+    display: flex;
+    justify-content: space-between;
+    height: 34px;
+    align-items: center;
+}
+.z1{
+    font-size: 15px;
+    color: white;
+}
+.d2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b9e9f5;
+    height: 41px;
+    align-items: center;
+    padding-left: 7vw;
+    position: relative;
+}
+audio{
+    transform: rotate(180deg);
+    opacity: 0;
+}
+.t1{
+    position: absolute;
+    right: 0;
+}
+.z2{
+    white-space: nowrap;
+    font-size: 12px;
+}
+.d3{
+    height: 36px;
+    background-color: #29bde0;
+    position: relative;
+}
+.sjx{
+    width: 0;
+    height: 0;
+    border-top: 5px solid #b9e9f5;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 10vw;
+}
+.z3{
+    line-height: 36px;
+    padding-left: 10vw;
+    font-size: 11px;
+    color: white;
+}
+.container{
+    background-color: #29bde0;
+}
+
+.db{
+    height: 95px;
+    background: #29bde0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 21px 11vw 30px 12vw;
+}
+.db1{
+    height: 43px;
+    background-color: #fbb435;
+    text-align: center;
+    line-height: 43px;
+    color: white;
+}
+body{
+    margin-bottom: 95px;  
+    background: #29bde0;  
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    margin-bottom: 95px;
+  }
+  
+  .container .box {
+    float: left;
+    width: 21.2vw;
+    height: 32.8vw;
+    margin: 0 5.5vw;
+  }
+  
+  .container .message {
+    display: flex;
+    flex-direction: column;
+    height: 21.5vw;
+    border: 0.7vw solid white;
+  }
+  
+  .container .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 78%;
+    height: 15.4vw;
+    font-size: 4.2vw;
+    background-color: #f5c97b;
+  }
+  
+  .number {
+    font-size: 3.2vw;
+    color: white;
+    background-color: #83b09a;
+    text-align: center;
+    flex-basis: 22%;
+  }
+  
+  .opition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vw;
+    visibility: hidden;
+  }
+  
+  .opition img {
+    width: 4.7vw;
+    height: 4.7vw;
+  }

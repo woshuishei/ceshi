@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./f-1.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="return">
+
+        </div>
+
+    </div>
+    <div class="matching">
+        玩家配比
+    </div>
+    <div class="main">
+        <div class="main-l">
+            <img src="./im/1.png" alt="">
+            <div>
+                杀手 <span id="kill">2</span> 人
+            </div>
+        </div>
+        <div class="main-l">
+            <img src="./im/2.png" alt="">
+            <div>
+                平民 <span id="civilian">6</span> 人
+            </div>
+        </div>
+    </div>
+    <div class="main-n">
+        <img src="./im/reduce.png" alt="" class="range">
+        <input type="range" id="ink" min="4" max="18" value="8">
+        <img src="./im/add.png" alt="" class="add">
+    </div>
+    <div class="main-m">
+        <span><strong> 请输入玩家的数量</strong></span>
+        <input type="text" onkeyup="value=value.replace(/^(0+)|[^\d]+/g,'')" value="8" id="input_s" >
+        <span class="orgre">玩家的数量在4-18</span>
+    </div>
+    <button class="footer" onclick="arrRandom()">去发牌</button>
+    <script src="./f-1.js"></script>
+</body>
+</html>
