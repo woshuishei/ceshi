@@ -1,0 +1,406 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>葡萄藤PPT</title>
+
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/reveal.css">
+
+    <!-- PPT主题，可以在/css/reveal/theme/中选择其他主题，目前暂时只能使用该模板 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/css/reveal/theme/ptt.css">
+
+    <!-- syntax highlighting 代码高亮主题 -->
+    <link rel="stylesheet" href="https://ptteng.github.io/PPT/lib/reveal/css/zenburn.css">
+
+    <!-- 打印和PDF输出样式 -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ?
+            'https://ptteng.github.io/PPT/css/reveal/print/pdf.css' : '../css/reveal/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <img src="https://ptteng.github.io/PPT/img/demo/logo.png" alt="" usemap="#pttmap" class="base-logo">
+    <map name="pttmap">
+        <area shape="rect" coords="0,0,276,58" href="http://www.jnshu.com" alt="" target="_blank" />
+    </map>
+
+
+    <div class="reveal default center" role="application" data-transition-speed="slow"
+        data-background-transition="fade">
+        <div class="slides"
+            style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.756);">
+            <section class="past" style="top: 158px; display: none;" hidden="" aria-hidden="true">
+                <h3>JS有哪些数据类型和常用方法？</h3>
+                <p>分享人：万晶</p>
+            </section>
+            <section class="past" style="top: 3px; display: block;" hidden="" aria-hidden="true">
+                <p>目录</p>
+                <p>1.背景介绍</p>
+                <p>2.知识剖析</p>
+                <p>3.常见问题</p>
+                <p>4.解决方案</p>
+                <p>5.编码实战</p>
+                <p>6.扩展思考</p>
+                <p>7.参考文献</p>
+                <p>8.更多讨论</p>
+            </section>
+            <section class="past" style="top: 267px; display: block;" hidden="" aria-hidden="true">
+                <h3>1.背景介绍</h3>
+            </section>
+            <section class="stack present" style="top: 0px; display: block;" data-previous-indexv="1">
+                <section class="past" style="top: 267px; display: block;" hidden="" aria-hidden="true">
+                    <p style="text-align: left;">
+                        JavaScript是一种属于网络的脚本语言,已经被广泛用于Web应用开发,常用来为网页添加各式各样的动态功能,为用户提供更流畅美观的浏览效果。JavaScript可以嵌入在 HTML
+                        中，或者作为单独的文件被 HTML 引用，用以实现某种动态的功能。
+
+                    </p>
+                </section>
+            </section>
+            <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
+                <h3>2.知识剖析</h3>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">JavaScript 常见的数据类型</p>
+            </section>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    值类型(基本类型)：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol。
+
+                    引用数据类型：对象(Object)、数组(Array)、函数(Function)。
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    字符串 <br>
+                    字符串是存储字符（比如 "Bill Gates"）的变量。
+
+                    字符串可以是引号中的任意文本。<br>
+
+                    var carname="Volvo XC60";<br>
+                    var carname='Volvo XC60';
+
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    数字 <br>
+                    JavaScript 只有一种数字类型。数字可以带小数点，也可以不带：<br>
+                    var x1=34.00; //使用小数点来写<br>
+                    var x2=34; //不使用小数点来写 <br>
+                    极大或极小的数字可以通过科学（指数）计数法来书写：<br>
+                    var y=123e5; // 12300000 <br>
+                    var z=123e-5; // 0.00123
+
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    布尔 <br>
+                    布尔（逻辑）只能有两个值：true 或 false。<br>
+                    布尔值代表“真”和“假”两个状态。“真”用关键字true表示，“假”用关键字false表示。布尔值只有这两个值。转换规则是除了下面几个值被转为false，其他值都视为true。<br>
+                    Boolean(undefined) // false <br>
+
+                    Boolean(null) // false <br>
+
+                    Boolean(0) // false <br>
+
+                    Boolean(NaN) // false <br>
+
+                    Boolean('') // false <br>
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    数组 <br>
+                    数组对象是使用单独的变量名来存储一系列的值。<br>
+                    下面的代码创建名为 cars 的数组：<br>
+                    var cars=new Array("Saab","Volvo","BMW");<br>
+
+
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    对象 <br>
+                    JavaScript 中的所有事物都是对象：字符串、数值、数组、函数...
+
+                    此外，JavaScript 允许自定义对象。<br>
+                    对象由花括号分隔。在括号内部，对象的属性以名称和值对的形式 (name : value) 来定义。属性由逗号分隔：<br>
+                    var person={firstname:"John", lastname:"Doe", id:5566};<br>
+                    上面例子中的对象 (person) 有三个属性：firstname、lastname 以及 id。<br>
+
+
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    Undefined 和 Null <br>
+                    Undefined 这个值表示变量不含有值。<br>
+                    可以通过将变量的值设置为 null 来清空变量。<br>
+                    cars=null;<br>
+                    person=null;<br>
+
+
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    函数 <br>
+                    函数是由事件驱动的或者当它被调用时执行的可重复使用的代码块。<br>
+
+                    JavaScript 函数语法<br>
+
+                    函数是由这样的方式进行声明的：关键字 function、函数名、一组参数，以及置于括号中的待执行代码。<br>
+
+                    function myFunction() <br>
+
+                    { <br>
+
+                    alert("Hello World!"); <br>
+
+                    } <br>
+
+                    myFunction(); <br>
+
+
+                </p>
+            </section>
+            <section style="text-align: left; top: 106px; display: block;" class="present">
+                <p style="text-align: left;">
+                    Symbol <br>
+                    Symbol 是一种特殊的、不可变的数据类型。<br>
+
+                    Symbol值通过Symbol函数生成。<br>
+
+                    var s = Symbol（）;<br>
+
+                    typeof s <br>
+
+                    "Symbol" <br>
+
+
+
+                </p>
+            </section>
+
+
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: center; top: 330px; display: none;">
+                    <h3>3.常见问题</h3>
+                </section>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="future">
+                <h4>怎如何判断数据类型</h4>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: center; top: 330px; display: none;">
+                    <h3>4 解决方案</h3>
+                </section>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: center; top: 330px; display: none;">
+                    typeof可以解决大部分的数据类型判断，typeof运算符可以返回一个值的数据类型，。
+                </section>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: left; top: 330px; display: none;">
+                    实操演示
+                </section>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: left; top: 330px; display: none;">
+                    那如何判断数据是个数组类型？
+                </section>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: left; top: 330px; display: none;">
+                    js判断数组类型的方法(这里只说一种最简单的方法)：<br>
+
+                    instanceof 用于判断一个变量是否是某个对象的实例。 比如Array：<br>
+
+                    var a=[]; <br>
+
+                    console.log(a instanceof Array) //返回true <br>
+                </section>
+            </section>
+
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true"
+                class="stack future">
+                <section style="text-align: center; top: 330px; display: none;">
+                    <h3>5.编码实战</h3>
+                </section>
+            </section>
+            <section hidden="" aria-hidden="true" class="stack future" style="top: 330px; display: none;">
+                <section style="top: 330px; display: none;">
+                    <h3 style="text-align: center">6.扩展思考</h3>
+                </section>
+            </section>
+            <section style="text-align: left; top: 0px; display: none;" hidden="" aria-hidden="true" class="future">
+                <p>javascript数据类型转换</p>
+            </section>
+            <section style="text-align: left; top: 0px; display: none;" hidden="" aria-hidden="true" class="future">
+                <p>Javascript(弱类型或者动态类型的语言)的变量是松散类型的，它可以存储Javascript支持的任何数据类型，其变量的类型可以在运行时被动态改变。
+                <p></p>
+            </section>
+            <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="future">
+                <h3>7.参考文献</h3>
+                <p>参考1：
+                    <a href="https://blog.csdn.net/SummerJX/article/details/81977930">Javascript类型转换的规则</a>
+                </p>
+                <p>参考2：
+                    <a href="https://www.runoob.com/js/js-datatypes.html">JavaScript 数据类型</a>
+                </p>
+            </section>
+            <section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;">
+                <h3>8 更多讨论</h3>
+            </section>
+
+            <section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;">
+
+                <h4>鸣谢</h4>
+                <p>感谢大家观看</p>
+                <p>
+                    <small>BY : 万晶</small>
+                </p>
+            </section>
+
+        </div>
+        <div class="backgrounds">
+            <div class="slide-background past" data-loaded="true" style="display: none;"></div>
+            <div class="slide-background past" data-loaded="true" style="display: block;"></div>
+            <div class="slide-background past" data-loaded="true" style="display: block;"></div>
+            <div class="slide-background stack present" data-loaded="true" style="display: block;">
+                <div class="slide-background past" data-loaded="true" style="display: block;"></div>
+                <div class="slide-background present" data-loaded="true" style="display: block;"></div>
+            </div>
+            <div class="slide-background future" data-loaded="true" style="display: block;"></div>
+            <div class="slide-background future" data-loaded="true" style="display: block;"></div>
+            <div class="slide-background future" data-loaded="true" style="display: none;"></div>
+            <div class="slide-background future" data-loaded="true" style="display: none;"></div>
+            <div class="slide-background future" style="display: none;"></div>
+            <div class="slide-background stack future" style="display: none;">
+                <div class="slide-background present" style="display: none;"></div>
+            </div>
+            <div class="slide-background future" style="display: none;"></div>
+            <div class="slide-background stack future" style="display: none;">
+                <div class="slide-background present" style="display: none;"></div>
+            </div>
+            <div class="slide-background future" style="display: none;"></div>
+            <div class="slide-background stack future" style="display: none;">
+                <div class="slide-background present" style="display: none;"></div>
+            </div>
+            <div class="slide-background stack future" style="display: none;">
+                <div class="slide-background present" style="display: none;"></div>
+                <div class="slide-background future" style="display: none;"></div>
+                <div class="slide-background future" style="display: none;"></div>
+            </div>
+            <div class="slide-background future" style="display: none;"></div>
+            <div class="slide-background future" style="display: none;"></div>
+            <div class="slide-background future" style="display: none;"></div>
+            <div class="slide-background future" style="display: none;"></div>
+        </div>
+        <div class="progress" style="display: block;">
+            <span style="width: 260.19px;"></span>
+        </div>
+        <aside class="controls" style="display: block;">
+            <button class="navigate-left enabled" aria-label="previous slide"></button>
+            <button class="navigate-right enabled" aria-label="next slide"></button>
+            <button class="navigate-up enabled" aria-label="above slide"></button>
+            <button class="navigate-down" aria-label="below slide"></button>
+        </aside>
+        <div class="slide-number" style="display: none;"></div>
+        <div class="speaker-notes" data-prevent-swipe=""></div>
+        <div class="pause-overlay"></div>
+        <div id="aria-status-div" aria-live="polite" aria-atomic="true"
+            style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">
+
+            语法： return[()[expression][]]; 可选项 expression 参数是要从函数返回的值。如果省略，则该函数不返回值。 用 return 语句来终止一个函数的执行，并返回 expression
+            的值。如果 expression
+            被省略， 或在函数内没有 return 语句被执行，则把值 undefined 赋给调用当前函数的表达式。
+        </div>
+    </div>
+
+
+    <script>
+        angular.module("myApp", [])
+            .controller('demoCtrl', function ($scope) {
+                $scope.aa = 'as111111'
+            })
+            .directive('demoOne', function () {
+
+                return {
+                    restrict: "AECM",
+                    template: '<input type="text" ng-model="aa">',
+                    replace: true,
+                    scope: {},
+                    controller: ['$scope', function ($scope) {
+                        $scope.aa = 'ss1212'
+                    }]
+
+
+                }
+            })
+    </script>
+    <script src="https://ptteng.github.io/PPT/lib/reveal/js/head.min.js"></script>
+    <script src="https://ptteng.github.io/PPT/lib/reveal/reveal.js"></script>
+
+    <script>
+        // 以下为常见配置属性的默认值
+        // {
+        //  controls: true, // 是否在右下角展示控制条
+        //  progress: true, // 是否显示演示的进度条
+        //  slideNumber: false, // 是否显示当前幻灯片的页数编号，也可以使用代码slideNumber: 'c / t' ，表示当前页/总页数。
+        //  history: false, // 是否将每个幻灯片改变加入到浏览器的历史记录中去
+        //  keyboard: true, // 是否启用键盘快捷键来导航
+        //  overview: true, // 是否启用幻灯片的概览模式，可使用"Esc"或"o"键来切换概览模式
+        //  center: true, // 是否将幻灯片垂直居中
+        //  touch: true, // 是否在触屏设备上启用触摸滑动切换
+        //  loop: false, // 是否循环演示
+        //  rtl: false, // 是否将演示的方向变成RTL，即从右往左
+        //  fragments: true, // 全局开启和关闭碎片。
+        //  autoSlide: 0, // 两个幻灯片之间自动切换的时间间隔（毫秒），当设置成 0 的时候则禁止自动切换，该值可以被幻灯片上的 ` data-autoslide` 属性覆盖
+        //  transition: 'default', // 切换过渡效果，有none/fade/slide/convex/concave/zoom
+        //  transitionSpeed: 'default', // 过渡速度，default/fast/slow
+        //  mouseWheel: true, //是否启用通过鼠标滚轮来切换幻灯片
+        // }
+        // 初始化幻灯片
+        Reveal.initialize({
+            history: true,
+            dependencies: [{
+                src: 'https://ptteng.github.io/PPT/plugin/markdown/marked.js'
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/markdown/markdown.js'
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/notes/notes.js',
+                async: true
+            },
+            {
+                src: 'https://ptteng.github.io/PPT/plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            }
+            ]
+        });
+    </script>
+</body>
+
+</html>
