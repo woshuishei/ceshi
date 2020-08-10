@@ -1,0 +1,59 @@
+html {
+    background: url(./3.png) no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    background-attachment:fixed;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 400px;
+    height: 320px;
+    margin: 180px auto;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, 0.6);
+  }
+  
+  .main .top {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    /* color: #59b1ec; */
+  }
+  
+  .main input {
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    padding-left: 40px;
+    background-color: #fff !important;
+    outline:none;
+  }
+  #name{
+      background: url(./user.png) no-repeat 5px
+  }
+  
+  #pwd{
+      background: url(./password.png) no-repeat 5px
+  }
+  .main #addText {
+    height: 20px;
+    color: red;
+  }
+  
+  .main #footer {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    outline:none;
+  }
+  
+  
